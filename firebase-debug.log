@@ -1,0 +1,25 @@
+[debug] [2019-03-31T20:17:13.093Z] ----------------------------------------------------------------------
+[debug] [2019-03-31T20:17:13.096Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Myles\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-03-31T20:17:13.096Z] CLI Version:   6.5.0
+[debug] [2019-03-31T20:17:13.096Z] Platform:      win32
+[debug] [2019-03-31T20:17:13.096Z] Node Version:  v11.11.0
+[debug] [2019-03-31T20:17:13.098Z] Time:          Sun Mar 31 2019 16:17:13 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-03-31T20:17:13.098Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-31T20:17:13.109Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-31T20:17:13.110Z] > authorizing via signed-in user
+[debug] [2019-03-31T20:17:13.110Z] [iam] checking project recipeviewer-be7ae for permissions ["firebase.projects.get"]
+[debug] [2019-03-31T20:17:13.113Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/recipeviewer-be7ae:testIamPermissions  
+
+[debug] [2019-03-31T20:17:13.380Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-31T20:17:13.383Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/recipeviewer-be7ae  
+ 
+[debug] [2019-03-31T20:17:13.597Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Myles\Projects\receipeviewer'...
+[info] 
+[debug] [2019-03-31T20:17:13.603Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/669595567624/clients/_:getWebAppConfig  
+ 
+[debug] [2019-03-31T20:17:13.849Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000

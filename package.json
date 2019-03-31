@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "vue-cli-service serve",
+    "build": "yarn lint && vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve": "yarn build && firebase serve",
+    "deploy": "yarn build && firebase deploy"
   },
   "dependencies": {
     "core-js": "^2.6.5",
